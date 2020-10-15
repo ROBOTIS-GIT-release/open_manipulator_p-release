@@ -1,0 +1,12 @@
+Source: ros-kinetic-open-manipulator-p-libs
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-dynamixel-workbench-toolbox, ros-kinetic-robotis-manipulator, ros-kinetic-roscpp
+Homepage: http://wiki.ros.org/open_manipulator_p_libs
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-open-manipulator-p-libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-kinetic-cmake-modules, ros-kinetic-dynamixel-workbench-toolbox, ros-kinetic-robotis-manipulator, ros-kinetic-roscpp
+Description: Package for OpenMANIPULATOR-P libraries
