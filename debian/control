@@ -1,0 +1,12 @@
+Source: ros-kinetic-open-manipulator-p
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/open_manipulator_p
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-open-manipulator-p
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-open-manipulator-p-control-gui, ros-kinetic-open-manipulator-p-controller, ros-kinetic-open-manipulator-p-description, ros-kinetic-open-manipulator-p-libs, ros-kinetic-open-manipulator-p-teleop
+Description: Metapackage for OpenMANIPULATOR-P
