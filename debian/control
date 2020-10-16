@@ -1,0 +1,12 @@
+Source: ros-melodic-open-manipulator-p-controller
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-melodic-catkin, ros-melodic-cmake-modules, ros-melodic-geometry-msgs, ros-melodic-open-manipulator-msgs, ros-melodic-open-manipulator-p-libs, ros-melodic-robotis-manipulator, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-trajectory-msgs
+Homepage: http://wiki.ros.org/open_manipulator_p_controller
+Standards-Version: 3.9.2
+
+Package: ros-melodic-open-manipulator-p-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-melodic-cmake-modules, ros-melodic-geometry-msgs, ros-melodic-open-manipulator-msgs, ros-melodic-open-manipulator-p-libs, ros-melodic-robotis-manipulator, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-trajectory-msgs
+Description: Package for OpenMANIPULATOR-P Controller
